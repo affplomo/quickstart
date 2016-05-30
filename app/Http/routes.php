@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Routes File
@@ -12,7 +11,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
+});
+Route::get('ost', array('as' => 'work', function () {
+    return view('login');
+}));
+
+Route::post('/', function () {
+    return view('login');
 });
 
 /*
