@@ -176,5 +176,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="quickstart node_modules" level="project" />
   </component>
 </module>
